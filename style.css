@@ -1,0 +1,49 @@
+body {
+	width: 100%;
+	height: 900px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.container {
+
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	border: 5px solid black;
+	position: relative;
+}
+
+div {
+
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.satu {
+
+	background-color: green;
+	z-index: 2;
+
+	
+}
+
+.dua {
+
+	background-color: orange;
+	margin-top: 100px;
+	margin-left: 100px;
+	z-index: 3;
+	
+
+}
+
+.tiga {
+
+	background-color: lightskyblue;
+	margin-top: 200px;
+	margin-left: 200px;
+	
+}
